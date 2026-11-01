@@ -39,7 +39,7 @@ brew uninstall --zap --cask bitcoffer
 
 ```bash
 # take version + digest from the release asset
-gh release view vX.Y.Z --repo cygnusyang/coffer --json assets \
+gh release view vX.Y.Z --repo cygnusyang/bitcoffer --json assets \
   --jq '.assets[] | select(.name | endswith(".dmg")) | "\(.name) \(.digest)"'
 
 # update version and sha256 in Casks/bitcoffer.rb, then

@@ -2,10 +2,10 @@ cask "bitcoffer" do
   version "2.15.0"
   sha256 "abe878b788179e9318a47a32ee604af81296c686f15001bf62f17566d3237586"
 
-  url "https://github.com/cygnusyang/coffer/releases/download/v#{version}/Bitcoffer-v#{version}.dmg"
+  url "https://github.com/cygnusyang/bitcoffer/releases/download/v#{version}/Bitcoffer-v#{version}.dmg"
   name "Bitcoffer"
   desc "Local-first password manager with a read-only MCP server for AI agents"
-  homepage "https://cygnusyang.github.io/coffer/en.html"
+  homepage "https://cygnusyang.github.io/bitcoffer/en.html"
 
   livecheck do
     url :url
