@@ -8,6 +8,12 @@ Homebrew tap for [Bitcoffer](https://github.com/cygnusyang/coffer) — a local-f
 brew install --cask cygnusyang/bitcoffer/bitcoffer
 ```
 
+Recent Homebrew versions require an explicit trust step for third-party taps. If the command above stops with *"Refusing to load cask … from untrusted tap"*, run this once and repeat the install:
+
+```bash
+brew trust cygnusyang/bitcoffer
+```
+
 Or tap first:
 
 ```bash
