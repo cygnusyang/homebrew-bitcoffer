@@ -1,6 +1,6 @@
 cask "bitcoffer" do
-  version "2.15.4"
-  sha256 "68079a644cbf4a42889fd934249664d77827c0f743e3b204eb7de66d650b74a1"
+  version "2.15.5"
+  sha256 "8acfb1985eb6ee6046394efafb46c612b5465e7558d52abfd0737a39c93ddb0d"
 
   url "https://github.com/cygnusyang/bitcoffer/releases/download/v#{version}/Bitcoffer-v#{version}.dmg"
   name "Bitcoffer"
