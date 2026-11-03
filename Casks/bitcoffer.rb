@@ -7,7 +7,7 @@ cask "bitcoffer" do
   url "https://github.com/cygnusyang/bitcoffer-releases/releases/download/v#{version}/Bitcoffer-v#{version}.dmg"
   name "Bitcoffer"
   desc "Local-first password manager with a read-only MCP server for AI agents"
-  homepage "https://cygnusyang.github.io/bitcoffer/en.html"
+  homepage "https://cygnusyang.github.io/bitcoffer-releases/en.html"
 
   livecheck do
     url :url
