@@ -1,6 +1,6 @@
 cask "bitcoffer" do
-  version "2.23.1"
-  sha256 "d498f5eb59442f2eaa179dcdfbfad7f91ffc82e94df11bc0cf39f809fff6dfd1"
+  version "2.24.0"
+  sha256 "5219d9caf30dd3c00d44e671f181f0f6225f6971b4569a1247b95864c45c3f4f"
 
   # 产物仓（2026-11-03 源码私有化）：源码仓转 private 后其 Release 资产不服务
   # 匿名请求，cask 从私有仓下载会 404，故产物迁独立公开仓。
